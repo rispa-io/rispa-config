@@ -4,6 +4,6 @@
   "description": "rispa config plugin",
   "license": "MIT",
   "devDependencies": {
-    "@rispa/eslint-config": "^1.1.0"
+    "@rispa/eslint-config": "^2.0.0"
   }
 }
