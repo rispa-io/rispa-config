@@ -1,6 +1,6 @@
 {
   "name": "@rispa/config",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "rispa config plugin",
   "license": "MIT",
   "devDependencies": {
