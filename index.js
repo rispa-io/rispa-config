@@ -1,4 +1,4 @@
-import path from 'path'
+const path = require('path')
 
 const config = {
   publicPath: '/',
@@ -9,4 +9,4 @@ const config = {
   },
 }
 
-export default config
+module.exports = config
