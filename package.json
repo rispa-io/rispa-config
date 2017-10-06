@@ -1,8 +1,9 @@
 {
   "name": "@rispa/config",
   "version": "3.0.1",
-  "description": "rispa config plugin",
+  "description": "Rispa Configuration",
   "license": "MIT",
+  "main": "./index.js",
   "devDependencies": {
     "@rispa/eslint-config": ">=3.0.0"
   }
