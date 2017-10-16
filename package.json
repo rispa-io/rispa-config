@@ -1,9 +1,17 @@
 {
   "name": "@rispa/config",
   "version": "3.0.1",
-  "description": "rispa config plugin",
+  "description": "Rispa Configuration",
   "license": "MIT",
+  "main": "./lib/index.js",
+  "typings": "./lib/index.d.ts",
   "devDependencies": {
-    "@rispa/eslint-config": ">=3.0.0"
+    "jest": "^20.0.3",
+    "typescript": "^2.5.2",
+    "@types/node": "^8.0.31",
+    "tslint": "^5.7.0"
+  },
+  "dependencies": {
+    "@rispa/core": "^3.0.1"
   }
 }
