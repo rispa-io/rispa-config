@@ -13,5 +13,10 @@
   },
   "dependencies": {
     "@rispa/core": "^3.0.1"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint .",
+    "lint:fix": "tslint . --fix"
   }
 }
