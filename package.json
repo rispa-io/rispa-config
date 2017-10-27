@@ -1,6 +1,6 @@
 {
   "name": "@rispa/config",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "Rispa Configuration",
   "license": "MIT",
   "main": "./lib/index.js",
@@ -13,7 +13,7 @@
     "tslint": "^5.7.0"
   },
   "dependencies": {
-    "@rispa/core": "4.0.1"
+    "@rispa/core": "4.0.2"
   },
   "scripts": {
     "build": "tsc",
