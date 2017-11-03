@@ -16,7 +16,7 @@
     "@rispa/core": "4.1.x"
   },
   "scripts": {
-    "build": "tsc",
+    "compile": "tsc",
     "lint": "tslint --type-check -p tsconfig.json",
     "lint:fix": "tslint --fix --type-check -p tsconfig.json"
   }
