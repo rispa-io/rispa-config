@@ -1,6 +1,6 @@
 {
   "name": "@rispa/config",
-  "version": "4.2.0",
+  "version": "4.2.1",
   "description": "Rispa Configuration",
   "license": "MIT",
   "main": "./lib/index.js",
