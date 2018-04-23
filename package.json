@@ -7,8 +7,8 @@
   "typings": "./lib/index.d.ts",
   "devDependencies": {
     "@rispa/tslint-config": ">=1.0.0",
-    "jest": "^22.4.2",
-    "typescript": "^2.7.2",
+    "jest": "^22.4.3",
+    "typescript": "^2.8.1",
     "@types/node": "^8.0.31",
     "tslint": "^5.9.1"
   },
