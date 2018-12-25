@@ -7,17 +7,17 @@
   "typings": "./lib/index.d.ts",
   "devDependencies": {
     "@rispa/tslint-config": ">=1.0.0",
-    "jest": "^22.4.3",
-    "typescript": "^2.8.1",
-    "@types/node": "^8.0.31",
+    "jest": "^23.6.0",
+    "typescript": "^3.2.2",
+    "@types/node": "^8.10.39",
     "tslint": "^5.9.1"
   },
   "dependencies": {
     "@rispa/core": "4.2.x"
   },
   "scripts": {
-    "compile": "tsc",
-    "lint": "tslint --type-check -p tsconfig.json",
-    "lint:fix": "tslint --fix --type-check -p tsconfig.json"
+    "compile": "rm -rf lib && tsc",
+    "lint": "tslint -p tsconfig.json",
+    "lint:fix": "tslint --fix -p tsconfig.json"
   }
 }

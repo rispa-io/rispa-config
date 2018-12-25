@@ -4,7 +4,7 @@ import { ConfigPlugin } from './ConfigPlugin'
 class ConfigPluginApi extends PluginApi<ConfigPlugin> {
   static pluginName = '@rispa/config'
 
-  public getConfig() {
+  public getConfig(): object {
     return this.instance.getConfig()
   }
 }
